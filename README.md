@@ -11,9 +11,8 @@
 				- Logo UFRRJ
 				- texto `Projeto de Extensão`
 				- Identidade visual da UFRRJ no fundo
-		- #### Rascunho
-			- 
-		- ^^Dúvidas^^
+
+		- #### DÚVIDA
 			- O banco de dados da rural com informações como data de nascimento, CPF, RG e etc e nível(técnico/graduação/mestrado e etc). São necessários nessa tela de cadastro ou eu assumo que isso é desnecessário?
 	- ### Login
 		- #### LOGIN
@@ -27,23 +26,23 @@
 		- #### DÚVIDA
 	- ### Página geral (Aluno)
 		- #### PG ALUNO
-			- ^^MENU SUPERIOR^^
-			- Nome do Aluno ^^esquerda^^
-			- Número da Matrícula ^^esquerda^^
-			- Nome do Projeto de Extensão ^^direita^^
-			- Horas a cumprir / Horas Concluídas ^^direita^^
-			- Últimos relatórios `LISTAR` ^^direita^^
-			- botão `CRIAR RELATÓRIO` ^^esquerda^^
+			- **MENU SUPERIOR**
+			- Nome do Aluno **esquerda**
+			- Número da Matrícula **esquerda**
+			- Nome do Projeto de Extensão **direita**
+			- Horas a cumprir / Horas Concluídas **direita**
+			- Últimos relatórios `LISTAR` **direita**
+			- botão `CRIAR RELATÓRIO` **esquerda**
 		- #### DÚVIDA
 			- Um aluno pode participar de mais de um projeto de extensão?
 			- O relatório deve ser feito na plataforma ou ser simplesmente anexado?
 	- ### Página geral (Professor)
 		- #### PG Professor
-			- ^^MENU SUPERIOR^^
-			- Nome do Professor ^^esquerda^^
-			- Número da Matrícula ^^esquerda^^
-			- Projetos de Extensão(Que coordena ou está envolvido) ^^esquerda^^
-			- Últimos relatórios enviados para avaliação e aprovação ^^direita^^
+			- **MENU SUPERIOR**
+			- Nome do Professor **esquerda**
+			- Número da Matrícula **esquerda**
+			- Projetos de Extensão(Que coordena ou está envolvido) **esquerda**
+			- Últimos relatórios enviados para avaliação e aprovação **direita**
 				- Projeto de Extensão 1
 					- Fulano - Relatório
 					- Ciclano - Relatório
@@ -57,14 +56,14 @@
 		- #### DÚVIDA
 	- ### Cadastro de Projeto de Extensão (Professor)
 		- #### CADASTRO P. DE EXTENSÃO
-			- ^^MENU SUPERIOR^^
+			- **MENU SUPERIOR**
 			- Nome do projeto:
 			- Número máximo de alunos: `LIST`
 			- Professores envolvidos: `Não sei que tipo ainda`
 			- Tempo de horas máximo do projeto:
 	- ### Cadastro de Relatórios (Aluno)
 		- #### CADASTRO DE RELATÓRIOS
-			- ^^MENU SUPERIOR^^
+			- **MENU SUPERIOR**
 			- Caixa de texto pra escrever relatório
 			- Cadastras horas gastas no relatório mensal
 			- Botão `Anexar relatório em pdf`
@@ -72,7 +71,7 @@
 			- Botão `Enviar relatório`
 	- ### Leitura e Aprovação de Relatórios (Professor)
 		- #### LEITURA E APROVAÇÃO DE RELATÓRIO
-			- ^^MENU SUPERIOR^^
+			- **MENU SUPERIOR**
 			- Tela pra visualizar o relatório na página
 			- Tempo gasto nas atividades do relatório (Aluno)
 			- Botão `Baixar relatório`
@@ -81,6 +80,7 @@
 			- Botão `Aprovar relatório`
 	- ### Tela do Projeto (Professor)
 		- #### TELA DO PROJETO DE EXTENSÃO
+			- **MENU SUPERIOR**
 			- Nome do projeto:
 			- Professores envolvidos:
 			- Alunos que participam do projeto:
@@ -92,6 +92,7 @@
 			- Botão `ENCERRAR PROJETO DE EXTENSÃO`
 	- ### Tela do Projeto (Aluno)
 		- #### TELA DO PROJETO DE EXTENSÃO
+			- **MENU SUPERIOR**
 			- Nome do projeto:
 			- Professores envolvidos
 			- Alunos que participam do projeto:
