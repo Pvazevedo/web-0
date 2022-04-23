@@ -12,7 +12,7 @@
 				- texto `Projeto de Extensão`
 				- Identidade visual da UFRRJ no fundo
 		- #### Rascunho
-			- ![image.png](../assets/image_1650744222609_0.png){:height 333, :width 481}
+			- 
 		- ^^Dúvidas^^
 			- O banco de dados da rural com informações como data de nascimento, CPF, RG e etc e nível(técnico/graduação/mestrado e etc). São necessários nessa tela de cadastro ou eu assumo que isso é desnecessário?
 	- ### Login
