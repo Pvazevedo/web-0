@@ -1,0 +1,22 @@
+body{
+    background: rgb(255 255 255);
+    max-width: 100%;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;   
+}
+div.relatorio{
+    margin: auto;
+    width: 20% !important;
+    margin-left: 40%;
+}
+div.proje_ext{    
+    text-align: justify;
+    margin-right: 20%;
+}
+.botao-rela{
+    width: 50px;
+    margin: 0 auto;
+    margin-right: 50%;
+}
