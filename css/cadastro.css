@@ -1,8 +1,12 @@
 body{
-    background: rgb(255 255 255);
+    background: rgb(0, 114, 171);
     max-width: 100%;
     margin: auto;
-    margin-left: 30%;   
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid gray;
+    margin-top: 6%;
+    border-radius: 5px;  
 }
 div.box{
     vertical-align: top;
@@ -17,6 +21,17 @@ img{
     max-width: 75%;
     max-height: 75%;
 }
-.title{
-    text-align: justify;
+#title{
+    text-align: center;
+}
+.content{
+    padding-left: 15px;
+    background-color: rgb(255 255 255);
+}
+#texto{
+    padding-left: 15px;
+}
+.fundo{
+    background-color: rgb(255 255 255);
+    padding: 15px;
 }
