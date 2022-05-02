@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/7-aprov-relat-prof.css">
     <title>Avaliação de Relatórios - Projeto de Extensão - UFRRJ</title>
-    <link rel="stylesheet" href="css/projeto-de-extensao.css">
 </head>
 <body style="background-color:  rgb(0, 114, 171);">
-    <header>
-        <h1 style="text-align: center;">Relatório Projeto de Extensão: "Abreviação" </h1>
+    <header class="cabecalho">
+        <h1 class="titulo" style="text-align: center; ">Relatório Projeto 1 </h1>
     </header>
-    <div class="perfil-relatorio">
-        <h3>Nome do Aluno:  "Joãozinho da Silva Sauro"   <br></h3>
-        <h3>Horas de atividades do relatório mensal: 10 </h3>
+    <div class="perfil-prof" style="padding-left: 15px;">
+        <img src="media/user.png" height="200px" max-width="200px" alt="Foto do Aluno">
+        <h3> Aluno: Cleber da Silva Sauro <br> Matricula: 00000000</p></h3>
     </div>
-    <div class="ultimas-noticias">
-        <h3 style="text-align: right;" style="text-align: top;">  <p> Últimas notícias e avisos: </p>
-        <p>Aviso - próxima reunião dia XX/XX/XXXX <br> Notícia - Evento relacionado ao temo de pesquisa</p>
+    <div class="projetos-ext" style="padding-left: 15px; margin-top: 5px;">
+        <h2><u>Projeto 1:</u></h2>
+        <h3> Horas a concluir: 80Hrs<br>Horas totais: 180Hrs</h3>
+    </div>
+    <div class="projeto-aluno">
+        <h2 style="text-align: justify;" style="text-align: top;">Últimos relatórios:</h2>
+            <h3>
+                <p>Relatório 3 <br>Data: 01/04/2022</p>
+                <p>Relatório 2 <br>Data: 01/03/2022</p>
+                <p>Relatório 1 <br>Data: 01/02/2022</p>
+            </h3>   
+    </div>
+    <div class="pdf-viewer" style="text-align: center;">
+        <iframe src="media/modelo-relatorio-mensal.pdf#view=fitH" height="900px" width="60%" ></iframe>
     </div>
     <div class="feedback" style="text-align: center;">
-        <label for="caixa-feedback">Feedback: </label> <br>
-        <textarea id="feedback" name="feedback"
-                rows="5" cols="33">
-        Envie um feedback sobre o relatório aqui....
-        </textarea>
-        <div class="botao-enviar-feedback" >   
+        <label for="caixa-feedback" style="font-size: x-large; font-weight: bold;">Feedback:</label> <br>
+        <textarea id="feedback" name="feedback" rows="10" cols="80" style="margin:10px;">Envie um feedback sobre o relatório aqui....</textarea>
+        <div class="botao-feedback-aprovacao" >   
             <button style=" background-color: #4CAF50;
+                border-radius: 10px;
                 border: none;
-                color: white;
+                color: aliceblue;
                 padding: 15px 32px;
                 text-align: center;
                 text-decoration: none;
-                display: inline-block;
-                font-size: 16px";>Enviar Feedback</button> </h3>
-            </div>   
+                display: inline;
+                font-size: 16px;
+                margin: px;
+                margin-right: 15px;";>
+                Enviar Feedback
+            </button>
+            <button style=" background-color: #4CAF50;
+                border-radius: 10px;
+                border: none;
+                color: aliceblue;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                font-size: 16px;
+                margin: 5px;
+                margin-left: 15px;";>
+                Aprovar Relatório
+            </button>
+        </div>
     </div>
-    <div class="botao-aprovar-relatorio" style="text-align: right;">
-        <button style=" background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px";>Aprovar relatório</button> </h3>
-    </div>
-    <h2 style="text-align: center;">Duvidas:</h2>
 </body>
-</html>

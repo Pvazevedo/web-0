@@ -1,0 +1,30 @@
+.cabecalho{
+    
+    display: flex;
+    justify-content: center;
+}
+
+div.projeto-aluno{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    text-align: start;
+    padding-right: 15px;
+    background-color: aliceblue;
+    margin-right: 15px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+div.projetos-ext{
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: aliceblue;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
