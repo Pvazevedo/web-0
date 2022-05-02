@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página Geral - Projeto de Extensão - UFRRJ</title>
-        <link rel= "stylesheet" href= "css/pag-geral-aluno.css" >
-    </head>
-    <body>
-        <h1 class="title">Pagina do aluno</h1>
-        <div class="box" id="perfil_aluno">
-            <p><b>Aluno: "jose"</p><p><b>Matricula: 00000000</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pag-geral-professor.css">
+    <title>Pagina Geral Aluno</title>
+</head>
+<body style="background-color:  rgb(0, 114, 171);">
+    <header class="cabecalho">
+        <h1 class="titulo" style="text-align: center; ">Página do Aluno </h1>
+    </header>
+    <div class="perfil-prof" style="padding-left: 15px;">
+        <img src="media/user.png" height="15%" width="15%" alt="">
+        <h2> <b>Nome do Aluno: Cleber <p>Numero de matricula: 00000000</p></b></h2>
+    </div>
+    <div class="projetos-ext" style="padding-left: 15px; margin-top: 5px;">
+        <h2><u>Projetos de Extensão :</u></h2>
+        <table>
+            <tr><label for="projeto" id="text">Projeto:</label>
+                <select id="projeto" name="projeto">
+                    <option value="projeto 1">projeto 1</option>
+                    <option value="projeto 2">projeto 2</option>                               
+                </select><br>
+            </tr>
+            <tr>Horas a concluir: 80Hrs<br></tr>
+            <tr>Horas totais: 180Hrs<br></tr>
+        </table>
+    </div>
+    <div class="projeto-aluno">
+        <h3 style="text-align: justify;" style="text-align: top;">  <p> Últimos relatórios enviados para avaliação: </p>
+            <br>Relatório 1 <br>Data: xx/xx/xxxx</p>
+            <br>Relatório 2 <br>Data: xx/xx/xxxx</p>
+            <br>Relatório 3 <br>Data: xx/xx/xxxx</p>
+            <div>   
+                <input type="submit" value="Enviar relatorio" style=" background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px";>
+            </div>
         </div>
-        <div class="box" id="table">
-            <table>
-                <tr>Projeto:"Loren ipsum"<br></tr>
-                <tr>Horas a concluir: 80Hrs<br></tr>
-                <tr>Horas totais: 180Hrs<br></tr>
-            </table>
-        </div>
-        <div class="relatorio" id="table">
-            <p>Ultimos relatórios:</p>
-            <table>
-                <tr>
-                    <th>Relatorio</th><th>Data</th>
-                </tr>
-                <tr>
-                    <th><a href="" target="_blank">Relatorio 1</a></th><th>xx/xx/xxxx</th>
-                </tr>
-                <tr>
-                    <th><a href="" target="_blank">Relatorio 2</a></th><th>xx/xx/xxxx</th>
-                </tr>
-                <tr>
-                    <th><a href="" target="_blank">Relatorio 3</a></th><th>xx/xx/xxxx</th>
-                </tr>
-            </table>
-        </div>
-        <div class="botao-rela">
-            <br><input type="submit" value="Criar relatorio">
-        </div>
-    </body>
-</html>
+    </div>    
+</body>
