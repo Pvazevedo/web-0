@@ -4,53 +4,55 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadastro - Projeto de Extensão - UFRRJ</title>
-        <link rel= "stylesheet" href= "css/1-cadastro.css" >
+        <link rel= "stylesheet" href= "1-cadastro.css" >
     </head>
     <body>
-        <div class="fundo">
-        <header>
-            <h1 id="title">Projeto de Extensão</h1>
-        </header>
-        <article>
-            <h2 id="texto">Cadastro:</h2></div>
-            <table class="content">
-                <tr>
-                    <th><form class="form">
-                        <p>
-                            <label for="matri" id="text" class="texto">Matrícula:</label><br>
-                            <input type="text" id="matri" name="matri"><br>
-                        </p>
-                        <p>
-                            <label for="nivel" id="text">Nivel:</label><br>
-                            <select id="nivel" name="nivel">
-                                <option value="Coordenacao">Coordenação</option>
-                                <option value="Docente">Docente</option>
-                                <option value="mestrando">Mestrando</option>
-                                <option value="graduando">Graduando</option>                                
-                            </select>
-                        </p>
-                        <p>
-                            <label for="email" id="text">Email:</label><br>
-                            <input type="text" name="email">
-                        </p>
-                        <p>
-                            <label for="login" id="text">Login:</label><br>
-                            <input type="text" name="login">
-                        </p>
-                        <p>
-                            <label for="senha" id="text">Senha:</label><br>
-                            <input type="password" id="senha" name="senha">
+        <div class="body">
+            <div class="fundo">
+            <header>
+                <h1 id="title">Projeto de Extensão</h1>
+            </header>
+            <article>
+                <h2 id="texto">Cadastro:</h2></div>
+                <table class="content">
+                    <tr>
+                        <th><form class="form" action="2-login.html" target="_blank">
+                            <p>
+                                <label for="matri" id="text" class="texto">Matrícula:</label><br>
+                                <input type="text" id="matri" name="matri"><br>
                             </p>
-                        <p>
-                            <label for="senha" id="text">Confirme a senha:</label><br>
-                            <input type="password" id="senha" name="senha">
-                        </p>
-                            <input type="submit" value="criar">
-                        </form>
-                    </th>
-                    <th><img src="media/rural_logo02.png" alt="Logo da UFRRJ" class="logo"></th>
-                </tr>
-            </table>                
-        </article>
+                            <p>
+                                <label for="nivel" id="text">Nivel:</label><br>
+                                <select id="nivel" name="nivel">
+                                    <option value="Coordenacao">Coordenação</option>
+                                    <option value="Docente">Docente</option>
+                                    <option value="mestrando">Mestrando</option>
+                                    <option value="graduando">Graduando</option>                                
+                                </select>
+                            </p>
+                            <p>
+                                <label for="email" id="text">Email:</label><br>
+                                <input type="text" name="email">
+                            </p>
+                            <p>
+                                <label for="login" id="text">Login:</label><br>
+                                <input type="text" name="login">
+                            </p>
+                            <p>
+                                <label for="senha" id="text">Senha:</label><br>
+                                <input type="password" id="senha" name="senha">
+                                </p>
+                            <p>
+                                <label for="senha" id="text">Confirme a senha:</label><br>
+                                <input type="password" id="senha" name="senha">
+                            </p>
+                                <input type="submit" value="criar">
+                            </form>
+                        </th>
+                        <th><img src="media/rural_logo02.png" alt="Logo da UFRRJ" class="logo"></th>
+                    </tr>
+                </table>                
+            </article>
+        </div>
     </body>
 </html>
