@@ -13,32 +13,44 @@ Botão Enviar relatório-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/cadastro-relatorio.css">
     <title>Cadastro de Relatórios</title>
-    <h1 style="text-align: center;" >Cadastro de Relatórios</h1>
 </head>
 <body style="background-color: rgb(0, 114, 171);">
-<div style="padding-top: 2%;" >
-<textarea style="text-align:left;
-  position: absolute;
-  display: inline-block;  
-  position: relative;
-  width:100%;
-  height: 15em;
-  font-size: larger;"
- name="Texto" id="txt-relatorio" placeholder="Escreva aqui seu relatório"></textarea>
-</div>
-  <div style="text-align: center;
-    position: absolute;
-    width:100%;">
-      <input type="number" name="hora" id="temp-proj" style="align-items: center; width: 14em; height: 2em;" min="1" max="999" placeholder="Número de horas gastas">
+<div style="background-color: aliceblue; padding: 10px;">
+  <h1 style="text-align: center; background-color: aliceblue;" >Cadastro de Relatórios</h1>
+  <div style="padding-top: 2%; padding-left: 2%;
+    padding-right: 6%;" >
+    <textarea style="text-align:left;
+      position: absolute;
+      display: inline-block;  
+      position: relative;
+      width:100%;
+      height: 15em;
+      font-size: larger;
+      padding-left: 2%;
+      padding-right: 2%;
+      resize: none;"
+      name="Texto" id="txt-relatorio"
+      placeholder="Escreva aqui seu relatório">
+    </textarea>
+  </div>
+    <div style="padding-left: 39%; max-width: fit-content; position: absolute; left: 15%; top: 53%;">
+      <input type="number" name="hora" id="temp-proj" style="align-items: center; width: 14em; height: 3em  ;" min="1" max="999" placeholder="Número de horas gastas">
     </div>
-      <textarea class="mensagem" id="mensagem" placeholder="Mensagem para o Professor" style="width: 22%; height:15em ;"></textarea> 
+    <div style="padding-left: 2%;">
+      <textarea class="mensagem" id="mensagem" placeholder="Mensagem para o Professor" style= "width: 535px; height: 197px; resize: none;" ></textarea> 
       <form method="post" enctype="multipart/form-data">
-      <label for="file" style="font-size: x-large; background-color: green;" >Envie o arquivo em PDF</label>
+      <label for="file" style="font-size: xx-large;" >Envie o arquivo em PDF</label>
       <input type="file" id="file" name="file">
       </form>
+    </div>
+  </div>  
+  <div class="botao" style="background-color: aliceblue; ">
+    <input class="btn-enviar"  type="button" value="Enviar Projeto">
+  </div> 
 
 
-</div>
+</div>  
 </body>
 </html>
