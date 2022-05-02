@@ -3,24 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel= "stylesheet" href= "css/2-login.css" >
+        <link rel= "stylesheet" href= "css/login.css" >
     </head>
     <body>
+        <div class="conteudo">
         <header>
-            <h1 class="title">Projeto de Extensão</h1>
+            <h1 style="text-align: center">Projeto de Extensão</h1>
         </header>
-            <Div class="box"> 
-                <h2>Login:</h2>
-                <label for="log" id="text">Login:</label><br>
-                <input type="text" id="log" name="log"><br>
-                <label for="senha" id="text">Senha:</label><br>
-                <input type="password" id="senha" name="senha"><br><br>
-                <input type="submit" value="Entrar"><br>
-                <p><a href="https://www.google.com" target="_blank">Esqueci a senha</a></p>
-                <p><a href="1-cadastro.html" target="_blank">Cadastrar-se</a></p>
-            </Div>
-            <div class="box">
-                <img src="media/rural_logo02.png" alt="Logo da UFRRJ" class="logo">
-            </div>
+            <table class="box"><tr>
+                <th>
+                    <h2>Login:</h2>
+                    <form action="aluno.html" target="_blank">
+                        <label for="log" id="text"> Login:</label><br>
+                        <input type="text" id="log" name="log"><br>
+                        <label for="senha" id="text"> Senha:</label><br>
+                        <input type="password" id="senha" name="senha"><br><br>
+                        <input type="submit" value="Entrar"><br>
+                        <p><a href="https://www.google.com" target="_blank">Esqueci a senha</a></p>
+                        <p><a href="cadastro.html" target="_blank">Cadastrar-se</a></p>
+                    </form>
+                </th>
+                <th><img src="media/rural_logo02.png" alt="Logo da UFRRJ" class="logo"></th>
+            </tr></table>
+        </div>
     </body>
 </html>
