@@ -10,7 +10,7 @@ div.perfil-projeto{
     background-color: aliceblue;
     border: 3px solid gray;
     border-radius: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 15px;
 }
 
@@ -44,7 +44,7 @@ div.avisos-noticias{
     padding-left: 15px;
 }
 div.botao-encerrar-projeto{
-    top: 55%;
+    top: 50%;
     text-align: left;
     position: absolute;
 }
